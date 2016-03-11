@@ -13,13 +13,13 @@ return [
     'components' => [
         'config' => [
             'pip' => [
-                'class' => 'hidev\composer\controllers\PipController',
+                'class' => 'hidev\pypi\controllers\PipController',
             ],
             'pypi' => [
-                'class' => 'hidev\composer\controllers\PypiController',
+                'class' => 'hidev\pypi\controllers\PypiController',
             ],
             'setup.py' => [
-                'class' => 'hidev\composer\controllers\SetupPyController',
+                'class' => 'hidev\pypi\controllers\SetupPyController',
             ],
             'readme' => [
                 'markdownBadges' => [
