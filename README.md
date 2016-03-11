@@ -6,8 +6,8 @@ HiDev PyPI
 [![Latest Stable Version](https://poser.pugx.org/hiqdev/hidev-pypi/v/stable)](https://packagist.org/packages/hiqdev/hidev-pypi)
 [![Total Downloads](https://poser.pugx.org/hiqdev/hidev-pypi/downloads)](https://packagist.org/packages/hiqdev/hidev-pypi)
 [![Build Status](https://img.shields.io/travis/hiqdev/hidev-pypi.svg)](https://travis-ci.org/hiqdev/hidev-pypi)
-[![Code Coverage](https://scrutinizer-ci.com/g/hiqdev/hidev-pypi/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/hiqdev/hidev-pypi/?branch=master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/hiqdev/hidev-pypi/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/hiqdev/hidev-pypi/?branch=master)
+[![Scrutinizer Code Coverage](https://img.shields.io/scrutinizer/coverage/g/hiqdev/hidev-pypi.svg)](https://scrutinizer-ci.com/g/hiqdev/hidev-pypi/)
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/hidev-pypi.svg)](https://scrutinizer-ci.com/g/hiqdev/hidev-pypi/)
 
 [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
 
