@@ -1,0 +1,57 @@
+{
+    "name": "hiqdev/hidev-pypi",
+    "type": "yii2-extension",
+    "description": "PyPI plugin for HiDev",
+    "keywords": [
+        "hidev",
+        "pypi",
+        "packagist",
+        "plugin"
+    ],
+    "homepage": "https://github.com/hiqdev/hidev-pypi",
+    "license": "BSD-3-Clause",
+    "support": {
+        "email": "support@hiqdev.com",
+        "source": "https://github.com/hiqdev/hidev-pypi",
+        "issues": "https://github.com/hiqdev/hidev-pypi/issues",
+        "wiki": "https://github.com/hiqdev/hidev-pypi/wiki",
+        "forum": "http://forum.hiqdev.com/"
+    },
+    "authors": [
+        {
+            "name": "Andrii Vasyliev",
+            "role": "Project lead",
+            "email": "sol@hiqdev.com",
+            "homepage": "http://hipanel.com/"
+        },
+        {
+            "name": "Dmitry Naumenko",
+            "role": "Lead backend developer",
+            "email": "silverfire@hiqdev.com",
+            "homepage": "http://silverfire.me/"
+        },
+        {
+            "name": "Andrey Klochok",
+            "role": "Lead frontend developer",
+            "email": "tafid@hiqdev.com",
+            "homepage": "http://hiqdev.com/"
+        },
+        {
+            "name": "Yuriy Myronchuk",
+            "role": "QA Lead",
+            "email": "bladeroot@hiqdev.com",
+            "homepage": "http://hiqdev.com/"
+        }
+    ],
+    "require-dev": {
+        "hiqdev/hidev": "*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "hidev\\pypi\\": "src"
+        }
+    },
+    "extra": {
+        "yii2-extraconfig": "src/yii2-extraconfig.php"
+    }
+}
